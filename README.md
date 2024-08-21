@@ -1,3 +1,4 @@
+~~~
 **~/Doc/G/python_fundamentals/Examples/Terraform/4 main ?1 > terraform init **                                                                  py base 05:14:44 PM
 Initializing the backend...
 Initializing provider plugins...
@@ -234,3 +235,4 @@ github_repository.terraform-repo-creation-ref-1: Destruction complete after 2s
 
 Destroy complete! Resources: 2 destroyed.
                                                                                    
+~~~
