@@ -1,3 +1,14 @@
+## Installation of Terraform
+- Go to https://developer.hashicorp.com/terraform/install?product_intent=terraform
+~~~
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+~~~
+### References
+- https://registry.terraform.io/browse/providers
+- https://registry.terraform.io/providers/integrations/github/latest/docs
+- https://developer.hashicorp.com/terraform/language/functions
+
 ### Run below commands
 
 ~~~
@@ -11,6 +22,7 @@
 ~~~
 > terraform destroy --target github_repository.terraform-repo-ref_1 --auto-approve
 ~~~
+
 
 ##### ~/Doc/G/python_fundamentals/Examples/Terraform/4 main ?1 > terraform init                                                                 
 ~~~
