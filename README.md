@@ -1,3 +1,17 @@
+### Run below commands
+
+~~~
+> terraform init
+> terraform validate         
+> terraform providers
+> terraform apply --auto-approve
+> terraform destroy --auto-approve
+~~~
+### Run below command Destroy any specific resource  
+~~~
+> terraform destroy --target github_repository.terraform-repo-ref_1 --auto-approve
+~~~
+
 ##### ~/Doc/G/python_fundamentals/Examples/Terraform/4 main ?1 > terraform init                                                                 
 ~~~
 Initializing the backend...
