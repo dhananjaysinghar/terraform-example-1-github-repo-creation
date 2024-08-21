@@ -15,7 +15,8 @@ brew install hashicorp/tap/terraform
 
 ~~~
 > terraform init
-> terraform validate         
+> terraform validate
+> terraform plan        
 > terraform providers
 > terraform apply --auto-approve
 > terraform destroy --auto-approve
