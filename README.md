@@ -27,7 +27,7 @@ brew install hashicorp/tap/terraform
 
 
 ##### ~/Doc/Terraform > terraform init                                                                 
-~~~
+~~~sh
 Initializing the backend...
 Initializing provider plugins...
 - Finding latest version of hashicorp/github...
@@ -56,12 +56,12 @@ commands will detect it and remind you to do so if necessary.
 ~~~
 
 ##### ~/Doc/Terraform > terraform validate
-~~~
+~~~sh
 Success! The configuration is valid.
 ~~~
 
 ##### ~/Doc/Terraform > terraform apply --auto-approve
-~~~
+~~~sh
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
   + create
 
@@ -150,7 +150,7 @@ Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 ~~~
 
 ##### ~/Doc/Terraform > terraform destroy --auto-approve
-~~~
+~~~sh
 github_repository.terraform-repo-creation-ref-1: Refreshing state... [id=terraform-repo-creation-example-1]
 github_repository.terraform-repo-creation-ref-2: Refreshing state... [id=terraform-repo-creation-example-2]
 
