@@ -1,5 +1,8 @@
 # Create a GITHUB Repo using terraform configuration.
 
+![terraform_flow.png](terraform_flow.png)
+
+
 ## Installation of Terraform
 - Go to https://developer.hashicorp.com/terraform/install?product_intent=terraform
 ~~~
@@ -12,7 +15,6 @@ brew install hashicorp/tap/terraform
 - https://developer.hashicorp.com/terraform/language/functions
 
 ### Run below commands
-
 ~~~
 > terraform init
 > terraform validate
