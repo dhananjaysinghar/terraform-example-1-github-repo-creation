@@ -1,5 +1,5 @@
+#### **~/Doc/G/python_fundamentals/Examples/Terraform/4 main ?1 > terraform init **                                                                  py base 05:14:44 PM
 ~~~
-**~/Doc/G/python_fundamentals/Examples/Terraform/4 main ?1 > terraform init **                                                                  py base 05:14:44 PM
 Initializing the backend...
 Initializing provider plugins...
 - Finding latest version of hashicorp/github...
@@ -25,13 +25,15 @@ should now work.
 If you ever set or change modules or backend configuration for Terraform,
 rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
+~~~
 
-
-**~/Doc/G/python_fundamentals/Examples/Terraform/4 main ?1 > terraform validate  **                                                             py base 05:20:29 PM
+#### **~/Doc/G/python_fundamentals/Examples/Terraform/4 main ?1 > terraform validate  **                                                             py base 05:20:29 PM
+~~~
 Success! The configuration is valid.
+~~~
 
-**~/Doc/G/python_fundamentals/Examples/Terraform/4 main ?1 > terraform apply --auto-approve **                                                  py base 05:24:49 PM
-
+#### **~/Doc/G/python_fundamentals/Examples/Terraform/4 main ?1 > terraform apply --auto-approve **                                                  py base 05:24:49 PM
+~~~
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
   + create
 
@@ -117,8 +119,10 @@ github_repository.terraform-repo-creation-ref-2: Creation complete after 11s [id
 
 Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 
+~~~
 
-**~/Doc/G/python_fundamentals/E/Terraform/4 main ?1 > terraform destroy --auto-approve **                                                   13s py base 05:25:05 PM
+#### **~/Doc/G/python_fundamentals/E/Terraform/4 main ?1 > terraform destroy --auto-approve **                                                   13s py base 05:25:05 PM
+~~~
 github_repository.terraform-repo-creation-ref-1: Refreshing state... [id=terraform-repo-creation-example-1]
 github_repository.terraform-repo-creation-ref-2: Refreshing state... [id=terraform-repo-creation-example-2]
 
